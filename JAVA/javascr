@@ -1,0 +1,13 @@
+const TRESHOLD =7000;
+const PHONEP = 1000;
+const ACCESSORIES = 100;
+const TAX = 0.12;
+let price = 0;
+let bankacc = 10000;
+function withtax(price){
+return price+price*TAX}
+while(price<bankacc){
+price += withtax(PHONEP);
+if(price<TRESHOLD){
+price += withtax(ACCESSORIES)}}
+console.log((price).toFixed(2))
